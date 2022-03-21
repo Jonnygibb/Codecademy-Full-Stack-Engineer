@@ -1,0 +1,63 @@
+/* Default page styling */
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+}
+
+.logo {
+    float: left;
+    margin-left: 10px;
+    height: 50px;
+}
+
+/* General class to float content right */
+.right {
+    float: right;
+}
+
+/* Nav link styling and interactivity */
+nav a {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px 16px;
+}
+
+nav a:active {
+    color: red;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+/* Apply mission statement image as background rather than use html image tag */
+.mission {
+    background-image: url("../images/img-mission-background.webp");
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mission-statement {
+    background-color: black;
+    position: relative;
+    top: 43%;
+    padding: 0.5px 0;
+}
+
+.mission-statement h2, h4 {
+    margin: 15px 0;
+}
