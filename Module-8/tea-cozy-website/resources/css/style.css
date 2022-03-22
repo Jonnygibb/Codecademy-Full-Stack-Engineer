@@ -26,6 +26,10 @@ header {
     float: right;
 }
 
+.left {
+    float: left;
+}
+
 /* Nav link styling and interactivity */
 nav a {
     color: white;
@@ -83,4 +87,40 @@ nav a:hover {
 
 .tea h4 {
     margin: 0;
+}
+
+.location-container {
+    background-image: url("../images/img-locations-background.webp");
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-container h2 {
+    position: absolute;
+    top: 119%;
+}
+
+.location {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+}
+
+.location h3, .location p {
+    margin: 40px 0;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright {
+    margin-left: 20px;
 }
